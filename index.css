@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.w3-bar a{
+    text-decoration: none;
+}
+
+.name{
+    margin-top: 25%;
+    color: white;
+}
+
+.overimage img{
+    position: relative;
+}
+
+.overimage .photo img{
+    position: absolute;
+    top: 50px;
+}
+/* about section */
+#about{
+    background-size: cover;
+    height: 900px;
+}
+.im-up{
+    position: relative;
+}
+
+.ab{
+    margin: 10px;
+    position: absolute;
+    top: 1px;
+    text-decoration: underline;
+}
+
+.intro{
+    position: absolute;
+    top: 15%;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill{
+    position: absolute;
+    top: 35%;
+    margin: 20px;
+}
+.im-up .container{
+    position: absolute;
+    left: 150px;
+    top: 40%;
+}
+.skl{
+    top: 25%;
+    overflow: hidden;
+    width: 100%;
+    left: 80px;
+    padding: 5px;
+}
+.sk{
+    width: 100%;
+    margin-top: 25px;
+    /* border: 2px solid rgb(86, 86, 87); */
+    border-radius: 25px;
+    background-color: white;
+}
+.cpp{
+    width: 85%;
+    height: 35px;
+    /* border-radius: 25px; */
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(102, 2, 89);
+}
+.java{
+    width: 90%;
+    height: 35px;
+    /* border-radius: 25px; */
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(127, 172, 255);
+}
+.and{
+    width: 50%;
+    height: 35px;
+    /* border-radius: 25px; */
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+.htm{
+    width: 90%;
+    height: 35px;
+    /* border-radius: 25px; */
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 8, 8);
+}
+.bs{
+    width: 70%;
+    height: 35px;
+    /* border-radius: 25px; */
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(67, 70, 69);
+}
+.js{
+    width: 65%;
+    height: 35px;
+    /* border-radius: 25px; */
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(118, 243, 79);
+}
+.container{
+    margin: 15px auto;
+}
+
+.academics{
+    position: absolute;
+    top: 130%;
+}
+.aca{
+    position: absolute;
+    color: white;
+    left: 20px;
+}
+.academics .container{
+    color: white;
+    width: 850px;
+    margin-top: 70px;
+    margin-left: 160px;
+    margin-right: 150px;
+    background-color: rgb(37, 37, 37);
+}
+.resume{
+    margin-top: 25px;
+}
+.resume button{
+    width: 450px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.resume button:hover{
+    background-color: black;
+    color: white;
+}
+/* projects */
+.card-body{
+    border: 2%;
+    padding: 2%;
+    background-color: rgb(250, 57, 208);
+    border-color: rgb(231, 141, 23);
+}
+.card-body img{
+    width: 100%;
+    height: 350px;
+
+}
+.card-body button{
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 15%;
+    border: none;
+    background-color: rgb(31, 63, 248);
+}
+
+.card-body button:hover{
+    background-color: antiquewhite;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-text{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* contact */
+
+.cont{
+    position: relative;
+    top: 0;
+
+}
+
+.cont .container{
+    position: absolute;
+    top: 5px;
+    left: 160px;
+}
+.social{
+    position: absolute;
+    top: 25%;
+    margin: 15px;
+}
+.social #phone{
+    width: 250px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(31, 152, 252);
+}
+.social #wapp{
+    width: 250px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(54, 252, 54);
+}
+.social #insta{
+    width: 250px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 97, 24);
+}
+.social #mail{
+    width: 250px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 24, 24);
+}
+.social #twit{
+    width: 250px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(24, 132, 255);
+}
+.social #face{
+    width: 250px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(66, 103, 178);
+}
+.social #linkdn{
+    width: 250px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(14, 118, 168);
+}
+
+.social button:hover { 
+    animation: effect 0.4s infinite; 
+} 
+
+@keyframes effect { 
+    0% { 
+        transform: translateX(0px) rotate(0deg); 
+    } 
+
+    20% { 
+        transform: translateX(-4px) rotate(-4deg); 
+    } 
+
+    40% { 
+        transform: translateX(-2px) rotate(-2deg); 
+    } 
+
+    60% { 
+        transform: translateX(4px) rotate(4deg); 
+    } 
+
+    80% { 
+        transform: translateX(2px) rotate(2deg); 
+    } 
+
+    100% { 
+        transform: translateX(0px) rotate(0deg); 
+    }
+} 
+
+.container-fluid{
+    position: absolute;
+    margin-top: 50px;
+    }
+
+.container-fluid p{
+    font-weight: bold;
+    font-style: oblique;
+    font-size: large;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}   
